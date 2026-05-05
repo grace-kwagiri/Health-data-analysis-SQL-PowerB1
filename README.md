@@ -35,7 +35,7 @@ This project addresses that gap by analyzing patient, appointment, billing, and 
 - **SQL** (PostgreSQL/MySQL)
 - Data Analysis & Query Optimization
 - Relational Database Design
-- Power BI (for visualization – optional if you add dashboard)
+- Power BI (for visualization)
 
 ---
 
