@@ -1,4 +1,4 @@
-FINAL QUERIES WITH CORRECT --1. List all patients who live in Seattle.
+ --1. List all patients who live in Seattle.
 SELECT * 
 FROM PATIENTS
 WHERE CITY = 'Seattle'
@@ -202,7 +202,7 @@ SELECT * FROM PATIENTS
  
 SELECT * FROM MEDICATIONS
  
-/* Q3 alternate
+/*
 SELECT *
 FROM APPOINTMENTS
 WHERE STATUS = 'Completed' AND APPOINTMENT_DATE >= '2024-02-01'::DATE AND APPOINTMENT_DATE < '2024-01-03'::DATE
