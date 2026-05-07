@@ -144,10 +144,8 @@ FROM APPOINTMENTS
 GROUP BY DAY_OF_WEEK
 ORDER BY NO_OF_APPOINTMENTS DESC
  
---17. From this data set, write out 3 other queries based on what was taught in class but the 
---queries should not be part of what has been asked already.
- 
---List patients whose total billing amount exceeds the average billing amount
+
+--17. List patients whose total billing amount exceeds the average billing amount
 SELECT P.PATIENT_ID, P.FIRST_NAME, P.LAST_NAME, SUM(B.AMOUNT) AS TOTAL_BILLED
 FROM PATIENTS P
 JOIN APPOINTMENTS A ON A.PATIENT_ID = P.PATIENT_ID
